@@ -1,8 +1,29 @@
-# Welcome to your Expo app 👋
+```markdown
+# Mobile Development Setup with Expo Router
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app), focusing on the Expo Router template for modern mobile development.
 
-## Get started
+## Project Implementation Steps
+
+1. **Project Initialization and Setup**
+   - Navigated to the project directory: `prodev-mobile-setup`
+   - Initialized new Expo project using:
+     ```bash
+     npx create-expo-app@latest .
+     ```
+
+2. **Home Screen Customization**
+   - Modified `/app/(tabs)/index.tsx` to display "** First App Created**"
+   - Implemented using themed components for consistent styling
+
+3. **Project Reset Observations**
+   - The `reset-project` command:
+     - Creates an `/app-example` directory
+     - Offers to preserve existing files by moving them
+     - Helps maintain reference implementation
+   - Note: Command helps in keeping example code while starting fresh development
+
+## Get Started
 
 1. Install dependencies
 
